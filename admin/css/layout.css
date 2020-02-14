@@ -1,0 +1,52 @@
+ 
+.rightbar h2{
+	font-family: verdana;
+	font-size: 20px;
+}
+
+.rightbar form{
+	margin:0px;
+	padding-left:5%;
+	height:600px;
+}
+
+.rightbar input{
+	padding-right: 20%;
+}
+.rightbar .indent label {
+	float:left;
+	width:15%;
+	font-size: 20px;
+}
+input[type='radio']{
+	width:8%;
+	size:20px;
+}
+input,select{
+ 	width:50%;
+ 	margin:5px 0;
+	padding:5px 5px;
+	box-sizing: border-box;
+	
+}
+.rightbar span{
+	margin-left: 15%;
+	color:#a50108; 
+}
+.info{
+	margin-left: 5%
+}
+ input[type='submit']{
+ 	margin-left: 70px;
+ 	height:5%;
+ 	width:7%;
+ 	border-color: #000;
+ 	background-color: #9c07a5;
+	padding:0px;
+	border-radius: 5px;
+}
+input[type='submit']:hover{
+	color: #9c07a5;
+	border-color: #9c07a5;
+	background-color: #000;
+}

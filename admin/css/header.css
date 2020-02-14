@@ -1,0 +1,42 @@
+  .mainwrapper{ 
+	width:100%; height:100px; background-color:#9c07a5;
+}
+.header {
+	padding:10px 0 0 50px; 
+	width:100%; height:50px;
+}
+.content{
+	height:700px;
+	width:100%;
+}
+ul{
+	margin:0px
+	padding:0px;
+	list-style:none;
+}
+ul li{ 
+	text-transform: uppercase;
+	width:180px;
+	height:40px;
+	float:left;
+	background-color: #9c07a5;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px; 
+}
+ul li a{
+	text-decoration: none;
+	color:#000;
+	display:block;
+}
+ul li a:hover{
+	background-color: #000;
+	color:#9c07a5;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
